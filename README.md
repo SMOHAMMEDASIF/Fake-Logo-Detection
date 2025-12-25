@@ -27,3 +27,14 @@ The repository is organized as follows to ensure the script runs correctly:
 1. **Prerequisites**: Install the required Python libraries:
    ```bash
    pip install tensorflow keras opencv-python scikit-learn matplotlib seaborn numpy
+
+2. Launch:
+
+--> Simply double-click run.bat on Windows.
+
+--> Alternatively, run python FakeLogoDetection.py in your terminal.
+
+📊 Results
+Training/Testing Split: 80% of data used for training (248 images) and 20% for testing (62 images).
+
+Metrics: Provides Precision, Recall, and F1-Score to validate model performance.
